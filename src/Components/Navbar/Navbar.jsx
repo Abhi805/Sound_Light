@@ -29,12 +29,12 @@ export default function Navbar() {
             </li>
             <li className="nav-item bg py-4 px-5">
               <a className="nav-link" href="#">
-                Features
+                ABOUT
               </a>
             </li>
             <li className="nav-item bg py-4 px-5">
               <a className="nav-link" href="#">
-                Pricing
+                SERVICES
               </a>
             </li>
             <li className="nav-item bg pt-2 px-5">
@@ -44,17 +44,17 @@ export default function Navbar() {
             </li>
             <li className="nav-item bg py-4 px-5">
               <a className="nav-link" href="#">
-                Pricing
+                EVENTS
               </a>
             </li>
             <li className="nav-item bg py-4 px-5">
               <a className="nav-link" href="#">
-                Pricing
+                EQUIPMENT
               </a>
             </li>
             <li className="nav-item bg bg5 py-4 px-5">
               <a className="nav-link" href="#">
-                Pricing
+                CONTACT
               </a>
             </li>
           </ul>

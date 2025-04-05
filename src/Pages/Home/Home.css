@@ -12,10 +12,16 @@
 
 .pad2{
     position: absolute;
-    top: 66px;
-    color: rgb(255, 255, 255,0.5);
+    top: 150px;
+    color:white;
 }
-.txt{
+.txt2{
     font-size: large;
     font-weight: 600;
+    border-bottom: 2px solid red;
+    letter-spacing: 00.01cm;
+    width: 566px;
+}
+.hap{
+    font-size:80px;
 }

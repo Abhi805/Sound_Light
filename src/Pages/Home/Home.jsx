@@ -4,11 +4,13 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="container-fluid pad d-flex justify-content-center">
-      <div className="container pad2 d-flex justify-content-center">
-        <p  className="text-uppercase txt">
+      <div className="container pad2 d-grid justify-content-center ">
+        <p className="text-uppercase txt2  ">
           For the first time in india, experience the revolutionary
         </p>
-        <ul></ul>
+        
+        <p className="d-flex justify-content-center hap" >ANYA BY EAW</p>
+   
       </div>
       <iframe
         className="video"

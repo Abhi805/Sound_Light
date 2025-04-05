@@ -1,0 +1,21 @@
+.video{
+    width: 100%;
+    height: 850px;
+}
+.pad{
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.pad2{
+    position: absolute;
+    top: 66px;
+    color: rgb(255, 255, 255,0.5);
+}
+.txt{
+    font-size: large;
+    font-weight: 600;
+}

@@ -8,7 +8,7 @@ export default function Contact() {
       <div
         className="text-white text-center d-flex align-items-center justify-content-center"
         style={{
-          backgroundImage: "url('/images/banner-bg.jpg')",
+          backgroundImage: "url('/assets/contactbg.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "500px",
@@ -24,14 +24,14 @@ export default function Contact() {
             <div className="border p-4 rounded">
               <i className="bi bi-telephone-fill fs-1 text-danger"></i>
               <h5 className="mt-3">PHONE</h5>
-              <p>+91 731 4044289<br/>+91 98270 37289</p>
+              <p>+91 9691474449<br/>+91 9691474449</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
             <div className="border p-4 rounded">
               <i className="bi bi-envelope-fill fs-1 text-danger"></i>
               <h5 className="mt-3">EMAIL</h5>
-              <p>info@durgeshsound.com</p>
+              <p>events@gnvindia.com</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
@@ -39,9 +39,12 @@ export default function Contact() {
               <i className="bi bi-geo-alt-fill fs-1 text-danger"></i>
               <h5 className="mt-3">ADDRESS</h5>
               <p>
-                10, Race Course Road,<br/>
-                Abhay Prashal (Exel Prashal),<br/>
-                Indore - 452001
+                shop no. 3&4, plotNo.53,Ratna Lok
+                  colony Rd,behind Apollo permiere,vijaynagar
+                  indore 452011
+                <br/>
+                
+              
               </p>
             </div>
           </div>
@@ -87,20 +90,7 @@ export default function Contact() {
         ></iframe>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-dark text-white py-4">
-        <div className="container text-center">
-          <h4 className="text-danger mb-3">DURGESH</h4>
-          <p>
-            Durgesh Sound & Lighting Systems Pvt. Ltd.<br />
-            10, Race Course Road, Abhay Prashal, Indore - 452001
-          </p>
-          <p>Contact: +91 731 4044289 | +91 98270 37289</p>
-          <p>Email: info@durgeshsound.com</p>
-          <p className="mt-3 mb-0">&copy; 2025 DURGESH SOUND & LIGHTING SYSTEMS PVT. LTD.</p>
-        </div>
-      </footer>
-
+   
     </div>
   );
 }

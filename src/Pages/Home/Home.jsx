@@ -125,32 +125,45 @@ export default function Home() {
       </section>
 
       {/* Events Section */}
-   {/* Events Section */}
-<section className="container-fluid text-center py-5 p-2">
-  <h2 className="mb-3">The Grand Shows</h2>
-  <p className="mb-4">Experience our latest grand events and live concerts.</p>
+      {/* Events Section */}
+      <section className="container-fluid text-center py-5 p-2">
+        <h2 className="mb-3">The Grand Shows</h2>
+        <p className="mb-4">
+          Experience our latest grand events and live concerts.
+        </p>
 
-  <div className="row g-3 justify-content-center">
-    {/* First Column (Single Large Image) */}
-    <div className="col-md-6 p-0">
-      <img src="/assets/program-2.jpg" alt="Grand Show 1" className="img-fluid w-100 img4 " />
-    </div>
+        <div className="row g-3 justify-content-center">
+          {/* First Column (Single Large Image) */}
+          <div className="col-md-6 p-0">
+            <img
+              src="/assets/program-2.jpg"
+              alt="Grand Show 1"
+              className="img-fluid w-100 img4 "
+            />
+          </div>
 
-    {/* Second Column (Two Smaller Images) */}
-    <div className="col-md-6 d-flex flex-column p-0">
-      <img src="/assets/program-1.jpg" alt="Grand Show 2" className="img-fluid w-100 img5 " />
-      <img src="/assets/images14.jpg" alt="Grand Show 3" className="img-fluid w-100 img6" />
-    </div>
-  </div>
+          {/* Second Column (Two Smaller Images) */}
+          <div className="col-md-6 d-flex flex-column p-0">
+            <img
+              src="/assets/program-1.jpg"
+              alt="Grand Show 2"
+              className="img-fluid w-100 img5 "
+            />
+            <img
+              src="/assets/images14.jpg"
+              alt="Grand Show 3"
+              className="img-fluid w-100 img6"
+            />
+          </div>
+        </div>
 
-  {/* View All Events Button */}
-  <div className="text-center about-k">
-              <a href="#" className="btn btn-danger aboutl">
-                ALL SERVICES
-              </a>
-            </div>
-</section>
-
+        {/* View All Events Button */}
+        <div className="text-center about-k">
+          <a href="#" className="btn btn-danger aboutl">
+            VIEW ALL EVENTS
+          </a>
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section className="container my-5 text-center">
@@ -159,9 +172,11 @@ export default function Home() {
           Talk to us to book our bespoke end-to-end event services and use our
           fresh, innovative ideas to delight and engage your crowd.
         </p>
-        <a href="#" className="btn btn-danger">
-          Speak With Our Experts
-        </a>
+        <div className="text-center about-k">
+          <a href="#" className="btn btn-danger aboutl">
+            ALL SERVICES
+          </a>
+        </div>
       </section>
     </>
   );

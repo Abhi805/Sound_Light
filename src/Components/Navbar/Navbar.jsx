@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark py-0 bg1 padn">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-0 bg1 padn">
       <div className="container-fluid d-flex justify-content-center bg2">
         <button
           className="navbar-toggler ms-auto"
@@ -28,34 +28,34 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item bg py-4 px-5">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to='/About'>
                 ABOUT
-              </a>
+              </Link>
             </li>
             <li className="nav-item bg py-4 px-5">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to='/Services'>
                 SERVICES
-              </a>
+              </Link>
             </li>
             <li className="nav-item bg pt-2 px-5">
-              <a className="nav-link txt" href="#">
+              <Link className="nav-link txt" to='/'>
                 <img src="./assets/Logo1.png" style={{width:'150px',height:'55px'}} alt="" />
-              </a>
+              </Link>
             </li>
             <li className="nav-item bg py-4 px-5">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to='/event' >
                 EVENTS
-              </a>
+              </Link>
             </li>
             <li className="nav-item bg py-4 px-5">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to='/equipment' >
                 EQUIPMENT
-              </a>
+              </Link>
             </li>
             <li className="nav-item bg bg5 py-4 px-5">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to='/contact' >
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
